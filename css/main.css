@@ -111,7 +111,7 @@ nav ul li
   display: flex;
   margin-left: 1.5em;
   list-style-type: none;
-  font-size: 0.8em;
+  font-size: 1.5em;
   letter-spacing: 2px;
   font-family: 'Droid Sans', sans-serif;
   font-weight: bolder;
@@ -120,7 +120,7 @@ nav ul li
 nav li a
 {
   text-decoration: none;
-  color: black;
+  color: #19BC9C;
 }
 /*====================*/
 /*====================*/
@@ -128,7 +128,7 @@ nav li a
 header
 {
   display: flex;
-  background-image: url(../img/space.jpg);
+  background-image: url(../img/portfolio.png);
   height: 100vh;
   width: 100%;
 }
@@ -158,25 +158,42 @@ header img
   font-size: 3em;
   text-decoration: underline;
   text-align: center;
+  color: #E74C3C;
 }
 
 #home figure
 {
   margin: auto;
+  border: 3px #E67E22 solid;
+  border-radius: 6px;
+  width: 70vw;
 }
 
-#home img
+#home figure img
 {
-  width: 90vw;
-  height: auto;
+  height: 80%;
+  width: 100%;
   margin-bottom: 1em;
+}
+
+#home a
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  color: #9B59B6;
 }
 /*====================*/
 /*====================*/
 /*Footer part*/
 footer
 {
-  background-image: url(../img/space.jpg);
+  background-image: url(../img/portfolio.png);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -208,6 +225,7 @@ footer button
 footer button img
 {
   width: 45px;
+  color: #3398DC;
 }
 /*====================*/
 /*END OF HOMEPAGE*/
@@ -228,6 +246,7 @@ footer button img
   font-size: 3em;
   text-decoration: underline;
   text-align: center;
+  color: #2ECD71;
 }
 
 #contact form
@@ -237,6 +256,7 @@ footer button img
   flex-direction: column;
   padding-bottom: 2em;
   font-family: 'Droid Sans', sans-serif;
+  color: #E67E22;
 }
 
 #contact h2
