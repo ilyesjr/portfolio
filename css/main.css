@@ -272,28 +272,15 @@ footer button img
 /*Media Tablet and Desktop*/
 @media (min-width: 768px)
 {
-  #home img
+  #home figure
   {
-    width: 60vw;
+    width: 50%;
     height: auto;
     margin-bottom: 1em;
   }
 
-  #catalog img
-  {
-    width: 60vw;
-    height: auto;
-    margin-bottom: 1em;
-  }
 
-  #blog img
-  {
-    width: 60vw;
-    height: auto;
-    margin-bottom: 1em;
-  }
-
-  #contact form , #contact iframe
+  #contact form
   {
     display: inline-flex;
   }
