@@ -214,113 +214,6 @@ footer button img
 /*====================*/
 
 /*====================*/
-/*STAR OF CATALOG*/
-/*====================*/
-#catalog
-{
-  display: flex;
-  flex-direction: column;
-}
-
-#catalog h1
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 3em;
-  text-decoration: underline;
-  text-align: center;
-}
-
-#catalog figure
-{
-  margin: auto;
-}
-
-#catalog img
-{
-  width: 90vw;
-  height: auto;
-  margin-bottom: 1em;
-}
-
-#catalog p
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 2em;
-  text-align: center;
-  font-weight: bold;
-}
-/*====================*/
-/*END OF CATALOG*/
-/*====================*/
-
-/*====================*/
-/*START OF BLOG*/
-/*====================*/
-#blog
-{
-  display: flex;
-  flex-direction: column;
-}
-
-#blog h1
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 3em;
-  text-decoration: underline;
-  text-align: center;
-}
-#blog article
-{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.5em;
-}
-
-#blog h2
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 2em;
-  font-weight: bolder;
-  margin: auto;
-  padding-bottom: 0.5em;
-}
-#blog figure
-{
-  margin: auto;
-}
-
-#blog img
-{
-  width: 90vw;
-  height: auto;
-  margin-bottom: 1em;
-}
-
-#blog p
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.3em;
-  text-align: center;
-  font-weight: bold;
-  width: 80%;
-  margin: auto;
-}
-
-#blog a
-{
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  font-weight: bold;
-  width: 80%;
-  margin: auto;
-  padding-top: 0.5em;
-}
-/*====================*/
-/*END OF BLOG*/
-/*====================*/
-
-/*====================*/
 /*START OF CONTACT*/
 /*====================*/
 #contact
@@ -351,13 +244,6 @@ footer button img
   font-family: 'Droid Sans', sans-serif;
   font-size: 2em;
   text-align: center;
-}
-
-#contact iframe
-{
-  width: 90%;
-  margin: auto;
-  padding-bottom: 2em;
 }
 /*====================*/
 /*END OF CONTACT*/
