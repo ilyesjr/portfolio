@@ -136,12 +136,14 @@ header
 header figure
 {
   margin: auto;
+  width: 392.6px;
+  height: auto;
 }
 
-header img
+header figure img
 {
-  width: 280px;
-  height: 191.6px;
+  width: 100%;
+  height: 100%;
 }
 /*====================*/
 /*====================*/
@@ -272,6 +274,11 @@ footer button img
 /*Media Tablet and Desktop*/
 @media (min-width: 768px)
 {
+  header figure
+  {
+    width: 721px;
+  }
+
   #home figure
   {
     width: 30%;
