@@ -23,37 +23,62 @@
         <![endif]-->
 
     <!-- Add your site or application content here -->
-    <nav>
+    <nav id="homepage">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">EXPERTISE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
     <header>
       <figure>
         <img src="img/logoportfolio.png" alt="Logo">
       </figure>
-    </header>  
+    </header>
     <section id="home">
-        <h1>MY BEST WORK</h1>
-        <figure><img src="img/piscine.png" alt="Image projet 1"></figure>
-        <a href="https://ilyesjr.github.io/pee-seen/">Voir plus ..</a>
-        <figure><img src="img/tatooin.png" alt="Image projet 2"></figure>
-        <a href="https://ilyesjr.github.io/tattooin/">Voir plus ..</a>
-        <figure><img src="img/archi.png" alt="Image projet 3"></figure>
-        <a href="https://ilyesjr.github.io/archid/">Voir plus ..</a>
-        <figure><img src="img/airbnb.png" alt="Image projet 4"></figure>
-        <a href="https://ilyesjr.github.io/airbnbt/">Voir plus ..</a>
+        <h1>Some Of my Work</h1>
+          <div class="siteHere">
+            <div class="siteCrea">
+              <h2>Tatoo'In</h2>
+              <figure><img src="img/tatooin.png" alt="Image projet 2"></figure>
+              <a href="https://ilyesjr.github.io/tattooin/"><img src="img/magnifier.png" alt="Logo loupe"></a>
+            </div>
+            <div class="siteRepro1">
+              <h2>Archiduchesse</h2>
+              <figure><img src="img/archi.png" alt="Image projet 3"></figure>
+              <a href="https://ilyesjr.github.io/archid/"><img src="img/magnifier.png" alt="Logo loupe"></a>
+            </div>
+            <div class="siteRepro2">
+              <h2>Airbnb</h2>
+              <figure><img src="img/airbnb.png" alt="Image projet 4"></figure>
+              <a href="https://ilyesjr.github.io/airbnbt/"><img src="img/magnifier.png" alt="Logo loupe"></a>
+            </div>
+          </div>
+    </section>
+    <section id="about">
+      <h1>My Expertise !</h1>
+      <figure>
+        <img src="img/htmlJScss.png" alt="Logo HTML-CSS-JS">
+      </figure>
+      <p>I design in the browser with HTML(5), CSS(3) and a touch of JavaScript. I can work with front-end frameworks like Bootstrap too.</p>
+    </section>
+    <section id="contact">
+        <h1>Contact Me !</h1>
+        <form action="index.html" method="post">
+          <label for="name">Nom : </label>
+          <input type="text" name="name">
+          <label for="email">Adresse mail : </label>
+          <input type="email" name="email">
+          <label for="phone">Téléphone : </label>
+          <input type="number" name="phone">
+          <label for="text">Question ? : </label>
+          <textarea name="text" rows="5" cols="20"></textarea>
+        </form>
     </section>
     <footer>
-      <figure>
-          <!-- Portfolio Logo Here -->
-      </figure>
       <div class="button">
-        <button type="button" name="button"><img src="img/001-youtube-logotype.png" alt="Logo Youtube"></button>
-        <button type="button" name="button"><img src="img/002-instagram-logo.png" alt="Logo Instagram"></button>
-        <button type="button" name="button"><img src="img/003-twitter-logo-button.png" alt="Logo Twitter"></button>
-        <button type="button" name="button"><img src="img/004-facebook-logo-button.png" alt="Logo Facebook"></button>
+        <a href="https://twitter.com/ilyes_jriri"><img src="img/twitter.png" alt="Logo Twitter"></a>
+        <a href="https://github.com/ilyesjr"><img src="img/github.png" alt="Logo GitHub"></a>
       </div>
 
     </footer>

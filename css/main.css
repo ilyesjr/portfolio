@@ -111,7 +111,7 @@ nav ul li
   display: flex;
   margin-left: 1.5em;
   list-style-type: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
   letter-spacing: 2px;
   font-family: 'Droid Sans', sans-serif;
   font-weight: bolder;
@@ -134,7 +134,7 @@ header
   background-size: cover;
   height: 100vh;
   width: 100%;
-  filter: grayscale(40%);
+  filter: grayscale(55%);
 }
 
 header figure
@@ -152,7 +152,7 @@ header figure img
 /*====================*/
 /*====================*/
 /*Section part*/
-#home
+#home, #home div
 {
   display: flex;
   flex-direction: column;
@@ -167,10 +167,19 @@ header figure img
   color: #E74C3C;
 }
 
+#home h2
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-align: center;
+  color: #E67E22;
+}
+
 #home figure
 {
   margin: auto;
-  border: 3px #E67E22 solid;
+  border: 4px #E67E22 solid;
   border-radius: 6px;
   width: 70vw;
 }
@@ -203,44 +212,49 @@ footer
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(40%);
+  filter: grayscale(55%);
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-footer figure
+footer .button
 {
-  padding: 16px 40px 16px 40px;
+  padding: 1em 1em;
   margin: auto;
 }
-
-footer figure img
+/*====================*/
+/*END OF HOME*/
+/*====================*/
+#about h1
 {
-  width: 186.6px;
-  height: 127.7px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+  color: #E74C3C;
 }
 
-.button
+#about figure
 {
-  padding-bottom: 1em;
   margin: auto;
-}
-footer button
-{
-  background-color: transparent;
-  border: none;
+  width: 55%;
 }
 
-footer button img
+#about figure img
 {
-  width: 45px;
-  color: #3398DC;
+  width: 100%;
 }
-/*====================*/
-/*END OF HOMEPAGE*/
-/*====================*/
 
+#about p
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0C73B8;
+  text-align: center;
+  margin: 2em 2em;
+}
 /*====================*/
 /*START OF CONTACT*/
 /*====================*/
@@ -289,19 +303,22 @@ footer button img
 
   #home figure
   {
-    width: 30%;
+    width: 70%;
     height: auto;
     margin-bottom: 1em;
   }
 
+  #home .siteHere
+  {
+    flex-direction: row;
+    margin: auto;
+  }
 
   #contact form
   {
-    display: inline-flex;
+    width: 30%;
   }
 }
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
