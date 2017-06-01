@@ -94,6 +94,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: "brush";
+  src: url("../font/edosz.ttf");
+}
 /*Navigation part*/
 nav
 {
@@ -152,6 +156,11 @@ header figure img
 /*====================*/
 /*====================*/
 /*Section part*/
+section
+{
+  margin-top: 5em;
+  padding-bottom: 3em;
+}
 #home, #home div
 {
   display: flex;
